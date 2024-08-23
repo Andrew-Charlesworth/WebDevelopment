@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="style.css">
+
+<header>
+    <h1>Welcome to Belize</h1>
+    <nav>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="FreeTripGames.html">FreeTripGames</a></li>
+            <li><a href="Sites.html">Sites</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="Booking.html">Booking</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="flex-container">
+
+    <div class="flex-item-right">
+        <section id="book">
+            <h2>Book Your Trip</h2>
+            <form id="bookingForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="date">Travel Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="guide">Choose a Tour Guide:</label>
+                <select id="guide" name="guide">
+                    <option value="guide1">Guide 1</option>
+                    <option value="guide2">Guide 2</option>
+                </select>
+
+                <button type="submit" onclick="alert('Your trip has been booked! We will contact you shortly.')">Book Now</button>
+            </form>
+        </section>
+    </div>
+
+  <div class="flex-item-left">
+<p id="ImageBelize">
+
+    <img src="Assets/Belize.png" alt="Picture of  Belize" width="500" height="500">
+</p>
+<p id="IslandBelize">
+
+    <img src="Assets/IslandBelize.jpeg" alt="Island of  Belize" width="500" height="500">
+</p>
+</div>
+
+  
+    </div>
+
+        <script src="script.js"></script>
